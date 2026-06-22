@@ -6,7 +6,7 @@
 ![Isometric View](render/1.png)
 
 #### Four-View Configuration
-![4 Views](render2.png)
+![4 Views](render/2.png)
 
 
 > [!NOTE]
