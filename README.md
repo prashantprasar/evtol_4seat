@@ -1,12 +1,65 @@
 # 4-Pax VTOL Designed in CATIA
 
 ## Wing Design
+## Wing Aerodynamic Parameters
 
 | Parameter | Value |
 |------------|--------|
+| Airfoil | MH 114 |
+| Wingspan | 11000 mm |
 | Root Chord | 1000 mm |
 | Tip Chord | 700 mm |
-| Wingspan | 11000 mm |
+| Wing Area | 9.35 m² |
+| Aspect Ratio | 12.94 |
+| Taper Ratio | 0.70 |
+| Quarter-Chord Sweep | 5° |
+| Dihedral Angle | 0° |
+| Wing Incidence | 2° |
+| Geometric Twist (Washout) | 0° |
+
+### Wing Notes
+
+- MH 114 airfoil selected for efficient low-Reynolds-number cruise performance.
+- Straight, untwisted wing simplifies manufacturing and structural design.
+- Zero dihedral is adopted due to the inherent stability provided by the distributed lift propulsion system and flight control computers.
+- A moderate taper ratio of 0.70 provides a good balance between structural efficiency and aerodynamic performance.
+
+---
+
+## Cruise Propeller
+
+| Parameter | Value |
+|------------|--------|
+| Diameter | 2500 mm |
+| Number of Blades | 5 |
+| Hub Diameter | 350 mm |
+| Root Blade Pitch | 32° |
+| Tip Blade Pitch | 12° |
+| Total Blade Twist | 20° |
+| Estimated Cruise RPM | 1500–1800 rpm |
+
+---
+
+## Vertical Lift Propellers
+
+| Parameter | Value |
+|------------|--------|
+| Quantity | 8 |
+| Diameter | 1500 mm |
+| Number of Blades | 3 |
+| Hub Diameter | 220 mm |
+| Root Blade Pitch | 28° |
+| Tip Blade Pitch | 10° |
+| Total Blade Twist | 18° |
+| Estimated Hover RPM | 1800–2200 rpm |
+| Total Rotor Disk Area | 14.14 m² |
+| Disk Loading (2400 kg MTOW) | 166.5 kg/m² |
+
+### Lift Rotor Arrangement
+
+- Four lift rotors mounted on each wing.
+- Adjacent rotors rotate in opposite directions to minimize net torque.
+- Fixed-pitch rotors driven by independent electric motors.
 
 ## Stabilizer Design
 
