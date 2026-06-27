@@ -1,6 +1,5 @@
 # 4-Pax VTOL Designed in CATIA
 
-## Wing Design
 ## Wing Aerodynamic Parameters
 
 | Parameter | Value |
@@ -40,20 +39,29 @@
 
 ---
 
+
 ## Vertical Lift Propellers
 
 | Parameter | Value |
 |------------|--------|
 | Quantity | 8 |
-| Diameter | 1500 mm |
+| Diameter | 2550 mm |
+| Radius | 1275 mm |
 | Number of Blades | 3 |
-| Hub Diameter | 220 mm |
+| Hub Diameter | 300 mm |
 | Root Blade Pitch | 28° |
 | Tip Blade Pitch | 10° |
 | Total Blade Twist | 18° |
-| Estimated Hover RPM | 1800–2200 rpm |
-| Total Rotor Disk Area | 14.14 m² |
-| Disk Loading (2400 kg MTOW) | 166.5 kg/m² |
+| Estimated Hover RPM | 900–1200 rpm |
+| Disk Area (Each Rotor) | 5.11 m² |
+| Total Rotor Disk Area | 40.85 m² |
+| Disk Loading | 58.8 kg/m² (576.4 N/m²) |
+
+### Lift Rotor Arrangement
+
+- Four lift rotors mounted on each wing.
+- Adjacent rotors rotate in opposite directions to minimize net torque.
+- Large-diameter rotors reduce disk loading, improving hover efficiency and reducing acoustic noise.
 
 ### Lift Rotor Arrangement
 
