@@ -6,12 +6,9 @@
 |------------|--------|
 | Airfoil | MH 114 |
 | Wingspan | 11000 mm |
-| Root Chord | 1000 mm |
-| Tip Chord | 700 mm |
-| Wing Area | 9.35 m² |
-| Aspect Ratio | 12.94 |
-| Taper Ratio | 0.70 |
-| Quarter-Chord Sweep | 5° |
+| Root Chord | 1720 mm |
+| Tip Chord | 860 mm |
+| Taper Ratio | 0.50 |
 | Dihedral Angle | 0° |
 | Wing Incidence | 2° |
 | Geometric Twist (Washout) | 0° |
